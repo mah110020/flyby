@@ -1,6 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - echo hello
+  build:
+    commands:
+      - echo world
 artifacts:
   files:
     - '**/*'
